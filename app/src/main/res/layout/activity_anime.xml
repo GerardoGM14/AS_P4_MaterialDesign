@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_light"
+    tools:context=".ui.AnimeActivity">
+
+    <!-- Barra de herramientas -->
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbarAnime"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/primary"
+        app:title="Lista de Animes"
+        app:titleTextColor="@color/onPrimary" />
+
+    <!-- RecyclerView que utiliza item_anime.xml -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        tools:listitem="@layout/item_anime" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+

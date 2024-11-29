@@ -1,0 +1,32 @@
+<resources>
+    <!-- Primary Colors -->
+    <color name="primary">#6200EE</color>
+    <color name="primaryLight">#BB86FC</color>
+    <color name="primaryDark">#264653</color>
+    <color name="onPrimary">#FFFFFF</color>
+
+    <!-- Secondary Colors -->
+    <color name="secondary">#03DAC5</color>
+    <color name="onSecondary">#000000</color>
+    <color name="accent">#F4A261</color>
+
+    <!-- Background Colors -->
+    <color name="background_light">#F5F5F5</color>
+    <color name="background_dark">#121212</color>
+
+    <!-- Text Colors -->
+    <color name="primaryText">#E9C46A</color>
+    <color name="secondaryText">#E76F51</color>
+    <color name="textPrimary">#FFFFFF</color>
+    <color name="textSecondary">#B0BEC5</color>
+
+    <!-- Item Background -->
+    <color name="itemBackground">#2C2C3A</color>
+
+    <!-- Feedback Colors -->
+    <color name="successColor">#4CAF50</color>
+    <color name="warningColor">#FFC107</color>
+    <color name="errorColor">#F44336</color>
+
+    <color name="cardBackground">#B0BEC5</color>
+</resources>

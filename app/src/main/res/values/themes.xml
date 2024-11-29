@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Tema Principal ya está en styles.xml, este archivo queda vacío -->
+    <!-- Puedes usar este archivo para configuraciones adicionales, si es necesario. -->
+
+</resources>
+
+
